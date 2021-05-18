@@ -1,0 +1,15 @@
+.world-location-map {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px black solid;
+}
+
+.world-location-map canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

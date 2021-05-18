@@ -1,0 +1,25 @@
+.loading-spinner {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.loading-spinner:after {
+  content: ' ';
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 5px solid #333;
+  border-color: #333 transparent #333 transparent;
+  animation: loading-spinner 1s linear infinite;
+}
+
+@keyframes loading-spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
