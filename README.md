@@ -50,3 +50,7 @@ import { WorldLocationsMap } from '@basementuniverse/world-locations-map';
   }[],
 }
 ```
+
+## Todo
+
+* Tooltip labels for each location
